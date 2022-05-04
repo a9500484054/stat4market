@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
   background-color:#FFF;
   padding: 15px;
-  padding-top: 17px;
+  padding-top: 35px;
 }
   
 h1,h2,h3,h4,h5 {
@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5 {
 
 
   body {
-    background-image: url('img/svg/Superman.svg');
+    background-image: url('../img/svg/Superman.svg');
     background-repeat: no-repeat;
     background-position: 229px 121px;
     background-size: 245px 245px
@@ -89,7 +89,7 @@ h1,h2,h3,h4,h5 {
 
   @media (min-width: $screen-table) {
     body {
-      background-image: url('img/svg/Superman.svg');
+      background-image: url('../img/svg/Superman.svg');
       background-repeat: no-repeat;
       background-position: 539px 343px;
       background-size: 410px 410px;
@@ -100,7 +100,7 @@ h1,h2,h3,h4,h5 {
     body {
       padding-left: 40px;
       padding-right: 40px;
-      background: url('img/svg/bg.svg'),url('img/svg/Superman-big.svg');
+      background: url('../img/svg/bg.svg'),url('img/svg/Superman-big.svg');
       background-repeat: no-repeat, no-repeat;
       background-position: -424px -114px, 807px 218px;
       background-size: 446px 446px, 444px 458px;
@@ -111,8 +111,8 @@ h1,h2,h3,h4,h5 {
     body {
       padding-left: 195px;
       padding-right: 195px;
-      padding-top: 23px;
-      background: url('img/svg/bg.svg'),url('img/svg/bg-big.svg'),url('img/svg/Superman-big.svg');
+      padding-top: 35px;
+      background: url('../img/svg/bg.svg'),url('../img/svg/bg-big.svg'),url('../img/svg/Superman-big.svg');
       background-repeat: no-repeat, no-repeat, no-repeat;
       background-size: 782px,759px,620px 563px;
       background-position: -675px -197px, 1871px 475px, 1170px 260px;

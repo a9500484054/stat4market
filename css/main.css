@@ -382,7 +382,7 @@ body {
   margin: 0 auto;
   background-color: #FFF;
   padding: 15px;
-  padding-top: 17px;
+  padding-top: 35px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -463,7 +463,7 @@ body {
   body {
     padding-left: 40px;
     padding-right: 40px;
-    background: url("../img/svg/bg.svg"), url("../img/svg/Superman-big.svg");
+    background: url("../img/svg/bg.svg"), url("img/svg/Superman-big.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: -424px -114px, 807px 218px;
     background-size: 446px 446px, 444px 458px;
@@ -474,7 +474,7 @@ body {
   body {
     padding-left: 195px;
     padding-right: 195px;
-    padding-top: 23px;
+    padding-top: 35px;
     background: url("../img/svg/bg.svg"), url("../img/svg/bg-big.svg"), url("../img/svg/Superman-big.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 782px,759px,620px 563px;
@@ -686,9 +686,6 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .s4m-header__logo {
-    margin-bottom: 44px;
-  }
   .s4m-header__text {
     margin-right: 54px;
   }
@@ -749,7 +746,6 @@ body {
 
 @media (min-width: 1920px) {
   .s4m-header__logo {
-    margin-bottom: 30px;
     margin-right: 44px;
   }
   .s4m-header__text {

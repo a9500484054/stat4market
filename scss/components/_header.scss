@@ -184,9 +184,6 @@
 @media (min-width: $screen-desktop) {
     .s4m-header {
         align-items: center;
-        &__logo {
-            margin-bottom: 44px;
-        }
         &__text {
             margin-right: 54px;
         }
@@ -253,7 +250,6 @@
 @media (min-width: $screen-desktop-xl) {
     .s4m-header {
         &__logo {
-            margin-bottom: 30px;
             margin-right: 44px;
         }
         &__text {
