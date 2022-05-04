@@ -1,0 +1,114 @@
+.s4m-desc {
+    max-width: 768px;
+    margin: 0 auto;
+    margin-bottom: 85px;
+    &__title {
+        max-width: 216px;
+        margin-bottom: 24px;
+
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 150%;
+        color: $color-text-title;
+        span {
+            color: $color-purple;
+        }
+    }
+    &__price {
+        margin-bottom: 16px;
+
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 29px;
+        color: $color-text-desc;
+        span {
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 55px;
+            color: $color-purple;
+        }
+        i {
+            color: $color-purple;
+            font-size: 48px;
+            margin-right: 25px;
+        }
+    }
+    &__text {
+        max-width: 700px;
+        margin-bottom: 10px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+
+        color: $color-text-desc;
+    }
+    &__img {
+        width: 245px;
+        height: 245px;
+        position: absolute;
+        top: 130px;
+        left: 229px;
+    }
+}
+
+@media (min-width: $screen-table) {
+    .s4m-desc {
+        max-width: 1280px;
+        margin: 0;
+        margin-bottom: 65px;
+        &__title {
+            max-width: 745px;
+            font-weight: 700;
+            font-size: 46px;
+            line-height: 65px;
+        }
+        &__price {
+        }
+        &__text {
+            max-width: 482px;
+            font-size: 20px;
+            line-height: 160%;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media (min-width: $screen-desktop) {
+    .s4m-desc {
+        max-width: 1920px;
+        margin-bottom: 77px;
+        &__title {
+
+        }
+        &__price {
+        }
+        &__text {
+            min-width: 711px;
+            span {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (min-width: $screen-desktop-xl) {
+    .s4m-desc {
+        margin-bottom: 147px;
+        &__title {
+            max-width: 900px;
+            margin-bottom: 22px;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 80px;
+        }
+        &__price {
+            margin-bottom: 16px;
+        }
+        &__text {
+            max-width: 856px;
+            font-size: 25px;
+            line-height: 160%;
+        }
+    }
+}

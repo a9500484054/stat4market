@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    outline: none;
+  }
+
+body {
+  font-family: $font-family--global;
+  margin: 0 auto;
+  background-color:#FFF;
+  padding: 15px;
+  padding-top: 17px;
+}
+  
+h1,h2,h3,h4,h5 {
+  margin: 0;
+}
+  
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  input,
+  textarea,
+  fieldset {
+    border: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  
+  input,
+  textarea,
+  fieldset {
+    border: none;
+  }
+  
+  textarea {
+    resize : none;
+  }
+  
+  .visually-hidden:not(:focus):not(:active),
+  input[type="checkbox"].visually-hidden,
+  input[type="radio"].visually-hidden {
+    position: absolute;
+  
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+  
+    -webkit-clip-path: inset(100%);
+  
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
+
+  body {
+    background-image: url('img/svg/Superman.svg');
+    background-repeat: no-repeat;
+    background-position: 229px 121px;
+    background-size: 245px 245px
+  }
+
+  @media (min-width: $screen-table) {
+    body {
+      background-image: url('img/svg/Superman.svg');
+      background-repeat: no-repeat;
+      background-position: 539px 343px;
+      background-size: 410px 410px;
+    }
+  }
+  
+  @media (min-width: $screen-desktop) {
+    body {
+      padding-left: 40px;
+      padding-right: 40px;
+      background: url('img/svg/bg.svg'),url('img/svg/Superman-big.svg');
+      background-repeat: no-repeat, no-repeat;
+      background-position: -424px -114px, 807px 218px;
+      background-size: 446px 446px, 444px 458px;
+    }
+  }
+  
+  @media (min-width: $screen-desktop-xl) {
+    body {
+      padding-left: 195px;
+      padding-right: 195px;
+      padding-top: 23px;
+      background: url('img/svg/bg.svg'),url('img/svg/bg-big.svg'),url('img/svg/Superman-big.svg');
+      background-repeat: no-repeat, no-repeat, no-repeat;
+      background-size: 782px,759px,620px 563px;
+      background-position: -675px -197px, 1871px 475px, 1170px 260px;
+    }
+  }
+  

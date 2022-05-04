@@ -1,0 +1,33 @@
+.s4m-breadcrumbs {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    &__item {
+        position: relative;
+        margin-right: 25px;
+        &:not(:last-child):after {
+        content: "";
+        display: block;
+
+        width: 10px;
+        height: 1px;
+        
+        position: absolute;
+        right: -18px;
+        top: 9px;
+
+        background: $color-breadcrumbs;
+        }
+    }
+    &__link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: $color-breadcrumbs;
+        transition-duration: .5s;
+        &:hover {
+        color: $color-purple;
+        }
+    }
+    
+}

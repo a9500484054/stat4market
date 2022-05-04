@@ -1,0 +1,224 @@
+.s4m-training {
+    margin: 0 auto;
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+
+        max-width: 345px;
+        margin: 0 auto;
+
+        margin-bottom: 25px;
+
+
+        color: $color-text-title;
+        &--number {
+            color: $color-purple;
+        }
+        &--before {
+            position: relative;
+            display: inline-block;
+        }
+        &--before::before {
+            content: "";
+
+            display: block;
+            width: 131px;
+            height: 4px;
+
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+
+            background: $color-gradient;
+            border-radius: 5px;
+        }
+    }
+    &__text {
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        color: $color-text-desc;
+        margin-bottom: 50px;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__item {
+    }
+}
+
+.block-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 255px;
+    margin-bottom: 40px;
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+
+        font-size: 38px;
+        color: $color-white;
+    
+        background-color: $color-purple;
+    
+        box-shadow: 0px 4px 25px rgba(234, 93, 187, 0.25);
+        border-radius: 15px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        color: $color-text-header;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: $color-text-desc;
+    }
+}
+
+@media (min-width: $screen-table) {
+    .s4m-training {
+        &__title {
+            font-size: 40px;
+            line-height: 64px;
+            padding-left: 56px;
+            padding-right: 56px;
+            max-width: 884px;
+            &--before::before {
+                width: 217px;
+                height: 6px;
+            }
+        }
+        &__text {
+            padding-left: 27px;
+            padding-right: 27px;
+            font-size: 20px;
+            margin-bottom: 80px;
+        }
+        &__list {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            max-width: 570px;
+            margin: 0 auto;
+        }
+        &__item:nth-child(odd) {
+            margin-right: 60px;
+        }
+    }
+    
+    .block-item {
+        text-align: left;
+        align-items:flex-start;
+        &__icon {
+
+        }
+        
+        &__title {
+        }
+    
+        &__text {
+        }
+    }
+}
+
+@media (min-width: $screen-desktop) {
+    .s4m-training {
+        &__title {
+            max-width: 1300px;
+            padding-left: 279px;
+            padding-right: 279px;
+            margin-bottom: 24px;
+        }
+        &__text {
+            padding-left: 258px;
+            padding-right: 258px;
+        }
+        &__list {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            justify-content: center;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        &__item {
+            margin-right: 88px;
+            
+        }
+        &__item:last-child {
+            margin-right: 0;
+            
+        }
+        &__item:nth-child(odd) {
+            margin-right: 88px;
+        }
+    }
+    
+    .block-item {
+        
+        &__icon {
+        }
+        
+        &__title {
+        }
+    
+        &__text {
+        }
+    }
+}
+
+@media (min-width: $screen-desktop-xl) {
+    .s4m-training {
+        &__title {
+            font-size: 48px;
+            &--before::before {
+                width: 259px;
+            }
+        }
+        
+        &__text {
+            font-size: 25px;
+            padding-left: 350px;
+            padding-right: 350px;
+        }
+        &__list {
+            max-width: 1560px;
+        }
+        &__item {
+        }
+    }
+    
+    .block-item {
+        
+        &__icon {
+            margin-bottom: 30px;
+        }
+        
+        &__title {
+            font-size: 24px;
+        }
+    
+        &__text {
+        }
+    }
+}
